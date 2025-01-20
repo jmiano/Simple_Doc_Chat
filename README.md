@@ -20,7 +20,7 @@ A Streamlit-based application that uses RAG (Retrieval-Augmented Generation) to 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pdf-chat.git
+   git clone https://github.com/jmiano/pdf-chat.git
    cd pdf-chat
    ```
 
@@ -55,13 +55,13 @@ A Streamlit-based application that uses RAG (Retrieval-Augmented Generation) to 
 
 ```
 pdf-chat/
-├── data/               # Directory for PDF documents
+├── data/              # Directory for PDF documents
 ├── src/               # Source code
 │   ├── app.py         # Main Streamlit application
 │   └── build_index.py # Document indexing script
 ├── tests/             # Unit tests
-├── .env              # Environment variables (create this file)
-├── .gitignore        # Git ignore rules
+├── .env               # Environment variables (create this file)
+├── .gitignore         # Git ignore rules
 └── requirements.txt   # Python dependencies
 ```
 
